@@ -1,0 +1,107 @@
+ body ,input{
+   
+    font-family:"Kristen ITC";
+    font-size: 6pt;
+	
+	
+
+  }
+  .menu-wrap{
+	height:50px; 
+	line-height:50px; 
+	width:100%;
+	float:center;
+	margin-right: 10px;
+	
+
+	
+	
+}
+ 
+.menu-wrap ul {
+	list-style:none;
+}
+
+ 
+.menu-wrap ul li a {
+	float:left;
+	width:100px; 
+	display:block; 
+	text-align:center; 
+	color:black;
+	text-decoration:none; 
+	text-transform:uppercase;
+	font-family:Kristen ITC;
+}
+ 
+.menu-wrap ul li a:hover {
+	background-color:#666; 
+	display:block;
+}
+ 
+.menu-wrap ul li:hover ul {
+	display:block;
+}
+
+   
+  #kiri {
+    position: fixed;
+	top: 40px;
+    left: 40px;
+    width: 200px;
+    
+  }
+  #kanan {
+    margin: 0 40px 40px 300px;
+  }
+ 
+  #kiri{
+    font-size: 12px;
+  } 
+  h1 {
+    font-family: Kristen ITC;
+    color: #930808;
+    font-size: 24pt;
+  }
+  #header {
+	  border-radius:10px;
+    text-align: center;
+	background-color:white;
+	padding: 10px;
+	border:12px solid black;
+	
+	
+  }
+  #header img {
+    width: 100%;
+  }
+  .gallery {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	padding: 10px;
+	border:12px solid black;
+	border-radius:10px;
+  }
+  .gallery li {
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+  .gallery img {
+    width: 250px;
+    margin-right:35px;
+    margin-bottom:15px;
+    margin-top:5px;   
+    border: 5px solid black;
+    border-radius: 10px;
+  }
+  .gallery img:hover{
+    border: 5px solid #fcfcfc;
+    cursor:pointer;
+  }
+  #footer {
+    border-top: 12px solid black;
+    padding-top: 10px;
+    margin-top: 25px;
+    text-align: center;
+  }

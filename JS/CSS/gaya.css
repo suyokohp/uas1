@@ -1,0 +1,78 @@
+ #bingkai{
+       padding:2px;
+       width:1024px;
+       height:1400;
+       margin:auto;
+	   border:2px;
+	   background-color:hsla(174,92%,70%,1.00);     
+}
+
+#header{
+       margin-top:10px;
+       margin:auto;
+       width:1000px;
+       height:10px;
+       padding:10px;
+       background-color:Gainsboro;
+       padding:10px;
+}
+
+
+#menu{
+       margin:auto;
+       padding:0px;
+       width:1000px;
+       height:auto;
+       padding:10px;
+       background-color:pink;
+}
+
+#kiri{
+       margin-left:5px;
+       margin-top:5px;
+       padding:px;
+       width:230px;
+       height:auto;
+       float:left;
+       background-color:pink;
+}
+
+#kanan{
+       margin-right:5px;
+       margin-top:5px;
+       padding:10px;
+       width:750px;
+       height:1200;
+       float:right;
+       background-color:pink;
+}
+
+
+
+/* Footer */
+
+#footer {
+	width: 1024px;
+	height: 20px;
+	margin: 0 auto;
+	padding: 20px 0 15px 0;
+	background: #444444;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#5BD7F6;
+}
+
+#footer p {
+	margin: 0;
+	line-height: normal;
+	font-size: 9px;
+	text-align: center;
+}
+
+#footer a {
+	font-size:12px;
+	font-style:italic;
+	color:#3DD7F7;
+	border-bottom: 1px #FFFFFF dotted;
+}
+       
+
